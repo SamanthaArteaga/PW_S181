@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/bus', function () {
     return view('productos');
-})-> name (productos)
-Route :: view('/lo','login')-> name (login);
+});
+Route :: view('/lo','login');
